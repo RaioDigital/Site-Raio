@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -13,29 +13,26 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Bem vindo a <a href="#">Raio Digital</a>
+          Bem vindo a           
         </h1>
+        <a href="https://site-raio.vercel.app/">
+          <Image src="/logo_raio.png" alt="Logo" width={500} height={500} />
+          </a>
 
         <p className={styles.description}>
-        Comece editando{' '}
-          <code className={styles.code}>pages/index.js</code>
+        Em breve nosso SITE{' '}
+          <code className={styles.code}></code>
         </p>
-
-        
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Designer by Raio Digital{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+        <a href="https://site-raio.vercel.app/" target="_blank" rel="noopener noreferrer">
+          Designer by {" "} 
+          <Image src="/logo_raio.png" alt="Logo" width={50} height={50} />
+          <span className={styles.logo}>            
           </span>
         </a>
       </footer>
     </div>
-  )
+  );
 }
