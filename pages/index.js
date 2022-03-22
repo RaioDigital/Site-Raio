@@ -12,25 +12,25 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Bem vindo a           
-        </h1>
+        <h1 className={styles.title}>Bem vindo a</h1>
         <a href="https://site-raio.vercel.app/">
           <Image src="/logo_raio.png" alt="Logo" width={500} height={500} />
-          </a>
+        </a>
 
         <p className={styles.description}>
-        Em breve nosso SITE{' '}
-          <code className={styles.code}></code>
+          Em breve nosso SITE !<code className={styles.code}></code>
         </p>
       </main>
 
       <footer className={styles.footer}>
-        <a href="https://site-raio.vercel.app/" target="_blank" rel="noopener noreferrer">
-          Designer by {" "} 
-          <Image src="/logo_raio.png" alt="Logo" width={50} height={50} />
-          <span className={styles.logo}>            
-          </span>
+        <a
+          href="https://site-raio.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Designer by{" "}
+          <Image src="/logo_raio.png" alt="Logo" width={60} height={60} />
+          <span className={styles.logo}></span>
         </a>
       </footer>
     </div>
